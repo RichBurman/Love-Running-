@@ -101,15 +101,15 @@ footer {
 @media screen and (min-width: 768px) {
     /* Header */
     nav {
-        display: block;
-        position: relative;
+        display: block; /* Show the nav */
+        position: relative; /* Reset position */
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
     }
 
     #menu {
-        display: flex;
+        display: flex; /* Horizontal menu */
     }
 
     #menu li {
@@ -120,21 +120,21 @@ footer {
         display: none;
     }
 
-    #logo {
+    #logo { 
         font-size: 280%;
         line-height: 75px;
-        margin: 0 0.5rem;
+        margin: 0 0.5rem; 
     }
 
     /* Main Content */
     main {
-        margin-top: 79px;
+        margin-top: 79px; /* Adjusted for the header */
     }
 }
 
 /* Media query: desktops and larger (992px and up) */
 @media screen and (min-width: 992px) {
-    #menu a:hover {
+    #menu a:hover { /* Hover effect */
         border-bottom: 1px solid #3a3a3a;
     }
 }
