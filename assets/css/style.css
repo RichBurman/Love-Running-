@@ -189,7 +189,15 @@ main {
     color: #fafafa;
 }
 
+/* Gallery Page */
+#photos img {
+    width: 100%; /* Make the images responsive */
+    line-height: 1em; /* Removes the white space between the images */
+}
 
+#photos {
+    line-height: 0; /* Removes the white space between the images */
+}
 
 /* Footer */
 #social-networks {
